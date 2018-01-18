@@ -48,7 +48,7 @@ namespace NotebookAppApi.Controllers
         [HttpPost]
         public void Post([FromBody] Filter filter)
         {
-            if (filter.Id == null) filter.Id = ObjectId.GenerateNewId().ToString();
+            if (filter.Id == null || filter.Id =="") filter.Id = ObjectId.GenerateNewId().ToString();
             _filterRepository.AddFilter(filter);
         }
 

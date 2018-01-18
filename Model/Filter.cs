@@ -17,13 +17,11 @@ namespace NotebookAppApi.Model
         public string EndPanko { get; set; }
         public decimal EndHostTo { get; set; }
         public decimal EndHostFrom { get; set; }
-        public decimal EowGuestTo { get; set; }
-        public decimal EowGuestFrom { get; set; }
+        public decimal NowGuestTo { get; set; }
+        public decimal NowGuestFrom { get; set; }
         public string NowPanko { get; set; }
         public decimal NowHostTo { get; set; }
         public decimal NowHostFrom { get; set; }
-        public decimal NowGuestTo { get; set; }
-        public decimal NowGuestFrom { get; set; }
         public decimal StartGuestTo { get; set; }
         public decimal StartGuestFrom { get; set; }
         public string StartPanko { get; set; }
